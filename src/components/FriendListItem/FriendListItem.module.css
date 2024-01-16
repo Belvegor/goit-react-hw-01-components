@@ -1,0 +1,13 @@
+.online {
+    background-color: green;
+}
+.offline {
+    background-color: red;
+}
+.FriendList {
+    max-width: 350px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 30px;
+}

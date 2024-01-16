@@ -1,0 +1,45 @@
+
+.profile {
+    max-width: 250px;
+    max-width: 350px;
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 30px;
+}
+.description {
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 20px;
+}
+.name {
+   
+    font-size: xx-large;
+    text-align: center;
+
+}
+.avatar {
+    height: 180px;
+    width: 180px;
+    display: flex;
+    align-self: center;
+}
+.stats {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 30px;
+       
+}
+.tag {
+    text-align: center;
+}
+.location {
+    text-align: center;
+}
+.label {
+    display: flex;
+    flex-direction: row;
+    
+}
