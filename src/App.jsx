@@ -1,11 +1,12 @@
 import Profile from "./components/Profile/Profile";
 import Statistics from "./components/Statistics/Statistics";
-import FriendListItem from "./components/FriendListItem/FriendListItem"; 
-import TransactionHistory from "./components/TransactionHistory/TransactionHistory"; 
+import FriendList from "./components/FriendListItem/FriendList";
+import TransactionHistory from "./components/TransactionHistory/TransactionHistory";
+
 import user from "./components/Profile/user.json";
 import data from "./components/Statistics/data.json";
-import friendsData from "./components/FriendListItem/friends.json";
-import transactionsData from "./components/TransactionHistory/transactions.json"; 
+import friendData from "./components/FriendListItem/friends.json";
+import transactionsData from "./components/TransactionHistory/transactions.json";
 
 function App() {
   return (
@@ -19,11 +20,9 @@ function App() {
       />
 
       <Statistics title="Upload stats" stats={data} />
-      <FriendListItem friends={friendsData} />
-      <TransactionHistory items={transactionsData} /> 
+      <FriendList friend={friendData} />
+      <TransactionHistory items={transactionsData} />
     </div>
   );
 }
-
-
 export default App;
